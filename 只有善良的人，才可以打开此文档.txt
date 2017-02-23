@@ -1,0 +1,13 @@
+angularDemo:
+1、将plugins 文件夹 放在E盘根目录下
+2、angularDemo/ 下 命令行 输入：npm install 安装依赖
+3、命令行 输入：gulp dev 运行项目
+（build文件夹下，已打包完毕，可直接查看网站效果）
+
+
+reactDemo:
+1、在examples/demo/ 下 命令行 输入： npm install 安装依赖
+2、命令行 输入： npm start 运行项目
+（build文件夹下，已打包完毕，可直接查看网站效果）
+
+使用过程中，有任何问题，可以私聊我咨询，QQ：3244057339

@@ -1,0 +1,249 @@
+body,ul,li,figure{
+	margin:0;
+	padding: 0;
+	font-family: "comic sans ms","华康少女";
+}
+
+.sideNav{
+	float: left;
+	height: 650px;
+	width: 230px;
+	background: #34495e;
+}
+.sideNav .top{
+	position: relative;
+	background: url(../images/timg2.jpg) 60%;
+	height: 100px;
+	line-height:100px ;
+}
+
+.sideNav .top img{
+	position: absolute;
+	left: 40%;
+	top:20px;
+	width:60px;
+	height: 60px;
+	border-radius: 60px;
+	cursor: pointer;
+	border:2px solid #fff;
+	
+	transition:All 0.4s ease-in-out;
+	-webkit-transition:All 0.4s ease-in-out;
+	-moz-transition:All 0.4s ease-in-out;
+	-o-transition:All 0.4s ease-in-out;
+}
+.sideNav .top img:hover{
+	transform:translate(0,-10px);
+	-webkit-transform:translate(0,-10px);
+	-moz-transform:translate(0,-10px);
+	-o-transform:translate(0,-10px);
+	-ms-transform:translate(0,-10px);
+}
+
+.sideNav .top span{
+	position: absolute;
+	right:25px;
+	font-size: 16px;
+	color:#AAAAAA;
+}
+.sideNav ul {
+	list-style: none;
+	overflow: hidden;
+	font-size: 16px;
+}
+
+.sideNav li a {
+	width: 100%;
+	padding: 20px 0;
+	display: inline-block;
+	text-indent: 100px;
+	text-decoration: none;
+	color:#88999c;
+}
+.sideNav li:nth-child(1){
+	background: url(../images/About.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(1) a:hover{
+	background:#243342 url(../images/About.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(2){
+	background: url(../images/Experience.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(2) a:hover{
+	background:#243342 url(../images/Experience.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(3){
+	background: url(../images/Education.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(3) a:hover{
+	background:#243342 url(../images/Education.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(4){
+	background: url(../images/Skills.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(4) a:hover{
+	background:#243342 url(../images/Skills.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(5){
+	background: url(../images/Projects.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(5) a:hover{
+	background:#243342 url(../images/Projects.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(6){
+	background: url(../images/Contact.png) no-repeat 40px center;
+}
+.sideNav li:nth-child(6) a:hover{
+	background:#243342 url(../images/Contact.png) no-repeat 40px center;
+}
+.sideNav li a:hover{
+	color: #fff;
+}
+
+.mainContent{
+	margin-left: 230px;
+}
+.mainContentTop{
+	height: 100px;
+	background: url(../images/timg.jpg);
+}
+
+.aboutMain{
+	background: url(../images/beijing.jpg) no-repeat;
+	background-size: 100%;
+	width: 100%;
+	height: 500px;
+}
+.aboutMainContent{
+	position: relative;
+	top:10%;
+	margin:0 auto;
+	width: 80%;
+	height: 80%;
+	background:rgba(0,0,0,.3);
+	background-size: 100%;
+	
+}
+.aboutMainContent figure{
+	position: relative;
+	left: 18%;
+	padding-top: 8%;
+	display: inline-block;
+}
+.aboutMainContent figure img{
+	border:3px solid #fff;
+	border-radius: 10px;
+}
+.aboutMainContent  figcaption{
+	padding-top: 20px;
+	color: #fff;
+	line-height: 24px;
+}
+.contactMain form{
+	margin: 30px auto;
+	width: 70%;
+}
+.contactMain input{
+	margin-top: 20px;
+	width: 100%;
+	border-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+	border:1px solid #e5e5e5;
+	text-indent: 10px;
+}
+.contactMain form textarea.ant-input{
+	margin-top: 5%;
+	height: 140px!important;
+}
+.contactMain button{
+	width: 40%;
+	margin: 5%;
+	height: 40px;
+	font-size: 18px;
+}
+.projectMain{
+	margin:3% auto 0;
+	width: 90%;
+	overflow: hidden;
+}
+.projectMain li{
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+.projectMain li img{
+	margin-top: 8%;
+	padding:15px;
+	width: 60%;
+	background: #a09e90;
+	text-align: center;
+	border-radius: 2px 2px 2px 2px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    cursor: pointer;
+}
+.projectMain li img{
+	
+}
+
+.educationMain{
+	margin: 0 auto;
+	width: 90%;
+	height: 500px;
+	background: url(../images/timg3.jpg) no-repeat center;
+	background-size:100%;
+}
+
+.experienceMain{
+	margin: 5% auto;
+	width: 90%;
+	height: 420px;
+	background: url(../images/xx.jpg) no-repeat;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.experienceMain .experienceMainL{
+	float: left;
+	width: 30%;
+	height: 400px;
+}
+.experienceMain .experienceMainL img{
+	margin:10%;
+	width: 100%;
+	border-radius: 5px;
+	-webkit-animation-name: fadeIn; /*动画名称*/
+	-webkit-animation-duration: 1s; /*动画持续时间*/
+	-webkit-animation-iteration-count: 1; /*动画次数*/
+	-webkit-animation-delay: 0s; /*延迟时间*/
+}
+@-webkit-keyframes fadeIn {
+	0% {
+	opacity: 0; /*初始状态 透明度为0*/
+	}
+	50% {
+	opacity: 0; /*中间状态 透明度为0*/
+	}
+	100% {
+	opacity: 1; /*结尾状态 透明度为1*/
+	}
+}
+.experienceMain .experienceMainR{
+	padding: 0 30px;
+	position: relative;
+	top:20%;
+	float: right;
+	width: 65%;
+	height: 400px;
+}
+.experienceMain .experienceMainR p{
+	font-size: 14px;
+	line-height: 28px;
+	color: #fff;
+}
+.chartContent {
+	margin: 0px auto;
+	width: 90%;
+}
+

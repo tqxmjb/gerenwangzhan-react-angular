@@ -1,0 +1,21 @@
+.DS_Store
+
+logs
+*.log
+
+node_modules
+bower_components
+
+# Build files
+build
+templates.js
+
+#webstorm
+.idea
+jsbak
+
+app/assets/vendors
+app/assets/css
+
+app/js/templates.js
+app/js/app.js
